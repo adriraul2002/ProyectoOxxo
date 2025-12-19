@@ -15,6 +15,9 @@ public class Principal {
 		//Tengo acceso a todo lo que contenga esa clase aqui
 		Productos producto = new Productos();
 		
+		System.out.println("Modificaciones al proyecto");
+		System.out.println(10);
+		
 		//Pasar los datos al objeto
 		producto.setNombre("Barrritas");
 		producto.setPrecio(20.5f);
